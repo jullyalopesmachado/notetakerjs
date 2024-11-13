@@ -1,4 +1,3 @@
-// script.js
 
 // Get elements
 const noteText = document.getElementById("noteText");
