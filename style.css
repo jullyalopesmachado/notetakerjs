@@ -1,0 +1,216 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6f2;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffd1e8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ff66b2;
+    margin-bottom: 15px;
+}
+
+.note-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#noteText {
+    padding: 10px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    resize: none;
+    min-height: 60px;
+    font-size: 16px;
+}
+
+#addNoteBtn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addNoteBtn:hover {
+    background-color: #ff4da6;
+}
+
+#notesList {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.note-item {
+    padding: 10px;
+    background-color: #ffe6f2;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff3399;
+}
+
+.note-item button {
+    background-color: transparent;
+    border: none;
+    color: #ff66b2;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.note-item button:hover {
+    color: #ff3399;
+}
+/* Additional styles for date dropdown */
+.date-selection {
+    margin-top: 15px;
+}
+
+#dateDropdown {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+    background-color: #ffe6f2;
+    color: #ff3399;
+    font-size: 14px;
+}
+/* styles.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6f2;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffd1e8;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ff66b2;
+    margin-bottom: 15px;
+}
+
+#currentDate {
+    color: #ff3399;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.note-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#noteText {
+    padding: 10px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    resize: none;
+    min-height: 60px;
+    font-size: 16px;
+}
+
+#noteDate {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+    background-color: #ffe6f2;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#addNoteBtn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addNoteBtn:hover {
+    background-color: #ff4da6;
+}
+
+#notesList {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.note-item {
+    padding: 10px;
+    background-color: #ffe6f2;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ff3399;
+}
+
+.note-item button {
+    background-color: transparent;
+    border: none;
+    color: #ff66b2;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.note-item button:hover {
+    color: #ff3399;
+}
+
+.date-selection {
+    margin-top: 15px;
+}
+
+#dateDropdown {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+    background-color: #ffe6f2;
+    color: #ff3399;
+    font-size: 14px;
+}
+

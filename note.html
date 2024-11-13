@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-Taking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes</h1>
+        <p id="currentDate"></p>
+        
+        <div class="note-input">
+            <textarea id="noteText" placeholder="Write your note here..."></textarea>
+            <input type="date" id="noteDate" />
+            <button id="addNoteBtn">Add Note</button>
+        </div>
+
+        <div class="date-selection">
+            <label for="dateDropdown">Open Notes from:</label>
+            <select id="dateDropdown">
+                <option value="all">All Dates</option>
+            </select>
+        </div>
+
+        <ul id="notesList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
